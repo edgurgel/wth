@@ -9,7 +9,7 @@ defmodule WTH do
     options = OptionParser.parse(args, switches: [help: :boolean], aliases: [h: :help])
     case options do
       { [help: true], _, _ } -> :help
-      { _, [ term ], _ } -> term
+      { _,  terms , _ } -> Enum.join(terms, " ")
     end
   end
 
@@ -34,7 +34,7 @@ defmodule WTH do
   def process_request_headers(headers), do: headers ++ [{"User-agent", "WTH"}]
 
   def define(term) do
-    response = get("define?term=" <> term).body
+    response = get("define?" <> URI.encode_query([term: term])).body
     if response["result_type"] == "no_results" do
       "Not found"
     else
