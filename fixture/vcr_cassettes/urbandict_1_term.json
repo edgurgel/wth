@@ -1,0 +1,30 @@
+[
+  {
+    "request": {
+      "url": "http://api.urbandictionary.com/v0/define?term=wth",
+      "headers": {
+        "User-agent": "WTH"
+      },
+      "method": "get",
+      "body": "",
+      "options": {
+        "connect_timeout": 5000
+      }
+    },
+    "response": {
+      "type": "ok",
+      "status_code": 200,
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "private",
+        "Content-Type": "application/json;charset=utf-8",
+        "Date": "Mon, 10 Feb 2014 22:08:39 GMT",
+        "Status": "200 OK",
+        "X-License": "http://api.urbandictionary.com/",
+        "Content-Length": "4359",
+        "Connection": "keep-alive"
+      },
+      "body": "{\"tags\":[\"wtf\",\"omg\",\"what\",\"lol\",\"what the fuck\",\"fuck\",\"what the hell\",\"hell\",\"omfg\",\"lmao\"],\"result_type\":\"exact\",\"list\":[{\"defid\":607935,\"word\":\"WTH\",\"author\":\"Angelic\",\"permalink\":\"http://wth.urbanup.com/607935\",\"definition\":\"1) Abbreviation for \\\"What the Hell\\\"\\r\\n\\r\\n2) Shortened alternative to \\\"With\\\"\",\"example\":\"1) WTH was that?!\\r\\n\\r\\n2) I ate some crackers wth chicken\",\"thumbs_up\":599,\"thumbs_down\":139,\"current_vote\":\"\"},{\"defid\":1440768,\"word\":\"wth\",\"author\":\"SIERRA.\",\"permalink\":\"http://wth.urbanup.com/1440768\",\"definition\":\"Abbreviation of what the hell, who the hell, why the hell, with... Or replace hell with heck. Whatever.\",\"example\":\"person a: Wth, my dog ate my sandwich.\\r\\nperson b: Wth did he do that?\\r\\nperson a: Wth knows, man.\\r\\nperson b: I bet the guy thats wth me knows.\",\"thumbs_up\":300,\"thumbs_down\":107,\"current_vote\":\"\"},{\"defid\":2977425,\"word\":\"wth\",\"author\":\"Bethany(:\",\"permalink\":\"http://wth.urbanup.com/2977425\",\"definition\":\"an abbreviation for what the hell.\",\"example\":\"*girl bakes a batch of cookies and leaves then on the counter*\\r\\n\\r\\nGirl: Hey be right back\\r\\nBoy: Yeah sure\\r\\n*girl walks away and guy eats all the cookies*\\r\\nBoy: munch, munch\\r\\n*girl walks back in*\\r\\nGirl: WTH!!!!! YOU ATE ALL THE DAMN COOKIES.\",\"thumbs_up\":184,\"thumbs_down\":66,\"current_vote\":\"\"},{\"defid\":3879343,\"word\":\"wth\",\"author\":\"Honeysugarhmmyeah\",\"permalink\":\"http://wth.urbanup.com/3879343\",\"definition\":\"It is generally used online in either chatrooms or [MSN] most commonly.\\r\\n\\r\\nOther sites are [Facebook], [Myspace] and [Bebo].\\r\\n\\r\\nIt basically means '[What the hell]' and is mainly used by teenagers who do not wish to [curse] outright or think it is cooler to use an [acronym].\\r\\n\\r\\nIt shows many different emotions, depending on what context it is placed in. It can show [surprise], [happiness], [anger] and [confusion].\",\"example\":\"[Happiness];\\r\\nGirl: \\\"I bought you a handbag, it's Gucci.\\\"\\r\\nGirl2: \\\"[WTH]?!\\\"\\r\\n\\r\\n[Surprise];\\r\\nMum: \\\"I'm breaking up with your father.\\\"\\r\\nGirl: \\\"[WTH]!\\\"\\r\\n\\r\\n[Anger];\\r\\nBoyfriend: \\\"I don't [love] you anymore.\\\"\\r\\nGirlfriend: \\\"[WTH]?!\\\"\\r\\n\\r\\nConfusion;\\r\\nBoy: \\\"I [love] you.\\\"\\r\\nGirl: \\\"Wth?\\\"\",\"thumbs_up\":64,\"thumbs_down\":27,\"current_vote\":\"\"},{\"defid\":2756358,\"word\":\"WTH?\",\"author\":\"Jaystababe\",\"permalink\":\"http://wth.urbanup.com/2756358\",\"definition\":\"What the hell\\r\\nPeople normally use WTF? now, but for younger peepz, use WTH\",\"example\":\"Jake: \\\"My mum fell of the balcony yesterday and broke her back.\\\"\\r\\nMaddy: \\\"WTH?!?\\\"\",\"thumbs_up\":18,\"thumbs_down\":2,\"current_vote\":\"\"},{\"defid\":3168921,\"word\":\"WTH\",\"author\":\"The Gay Bear\",\"permalink\":\"http://wth.urbanup.com/3168921\",\"definition\":\"What the Hell.\",\"example\":\"Jim: I want a 12-pc. Chicken Fries and a Coke, please.\\r\\nBurger King Person: Alright, you can come around now.\\r\\n(Jim takes the food and goes home. He checks the bag. There are regular fries and a bottle of water.)\\r\\nJim: WTH is f***ing going on?\",\"thumbs_up\":42,\"thumbs_down\":30,\"current_vote\":\"\"},{\"defid\":3208366,\"word\":\"WTH\",\"author\":\"...R.I.P....\",\"permalink\":\"http://wth.urbanup.com/3208366\",\"definition\":\"WTH can be:\\r\\n\\r\\n-What The Hell\\r\\n-Which The Hell\\r\\n-Why The Hell\",\"example\":\"A: I quit!\\r\\nB: WTH!? (Why The Hell)\\r\\n\\r\\nA: He kicked my ass!\\r\\nB: WTH!? (Which The Hell)\\r\\n\\r\\nA: I'm broke... I live in... Siaster... OMG... I , you know...\\r\\nB: WTH??? (What The Hell, or WTF :))\",\"thumbs_up\":47,\"thumbs_down\":36,\"current_vote\":\"\"},{\"defid\":4054408,\"word\":\"wth\",\"author\":\"AnotherAirhead\",\"permalink\":\"http://wth.urbanup.com/4054408\",\"definition\":\"Internet acronym for \\\"What the hell.\\\"\",\"example\":\"Person 1: I just went to the bathroom!\\r\\nPerson 2: WTH\",\"thumbs_up\":20,\"thumbs_down\":13,\"current_vote\":\"\"},{\"defid\":5135213,\"word\":\"wths\",\"author\":\"inspiron720\",\"permalink\":\"http://wths.urbanup.com/5135213\",\"definition\":\"want to have sex\\r\\nguys usually say or text it to be discreet like around family\",\"example\":\"boy:wths\\r\\ngirl:yeah in my room\",\"thumbs_up\":3,\"thumbs_down\":1,\"current_vote\":\"\"},{\"defid\":4798207,\"word\":\"wths!\",\"author\":\"heh heh DEAD\",\"permalink\":\"http://wths.urbanup.com/4798207\",\"definition\":\"what the heck sucker!\",\"example\":\"person 1: 'do you know what the score is?'\\n\\nperson 2: 'idk'\\n\\nperson 1: 'WTHS!'\",\"thumbs_up\":6,\"thumbs_down\":7,\"current_vote\":\"\"}],\"sounds\":[]}"
+    }
+  }
+]

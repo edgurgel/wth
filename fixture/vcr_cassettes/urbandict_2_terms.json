@@ -1,0 +1,30 @@
+[
+  {
+    "request": {
+      "url": "http://api.urbandictionary.com/v0/define?term=banana+boat",
+      "headers": {
+        "User-agent": "WTH"
+      },
+      "method": "get",
+      "body": "",
+      "options": {
+        "connect_timeout": 5000
+      }
+    },
+    "response": {
+      "type": "ok",
+      "status_code": 200,
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "private",
+        "Content-Type": "application/json;charset=utf-8",
+        "Date": "Mon, 10 Feb 2014 23:10:47 GMT",
+        "Status": "200 OK",
+        "X-License": "http://api.urbandictionary.com/",
+        "Content-Length": "4537",
+        "Connection": "keep-alive"
+      },
+      "body": "{\"tags\":[\"banana\",\"boat\",\"gay\",\"sex\",\"shit\",\"banana split\",\"boner\",\"dick\",\"fag\",\"gondola\"],\"result_type\":\"exact\",\"list\":[{\"defid\":3874051,\"word\":\"banana boat\",\"author\":\"truck drivin jim\",\"permalink\":\"http://banana-boat.urbanup.com/3874051\",\"definition\":\"an all male gay cruise\",\"example\":\"I almost signed up for that cruise until I found out it was a banana boat.\",\"thumbs_up\":833,\"thumbs_down\":325,\"current_vote\":\"\"},{\"defid\":5151502,\"word\":\"banana boat\",\"author\":\"krapart\",\"permalink\":\"http://banana-boat.urbanup.com/5151502\",\"definition\":\"when you have a party on land, and it is dominated mainly by the male species, we call it a sausage fest.\\n\\nbut when the party is on a watercraft, and there is a distinct lack of the female species, then it becomes a banana boat.\",\"example\":\"DOUG: \\\"hey, how was lake havasu spring break? you see a lot of hotties?\\\"\\n\\nFRED: \\\"you would think so, but i think its getting played out. it was mostly banana boats out there...\\\"\",\"thumbs_up\":53,\"thumbs_down\":24,\"current_vote\":\"\"},{\"defid\":7067590,\"word\":\"banana boat\",\"author\":\"gameplyer710\",\"permalink\":\"http://banana-boat.urbanup.com/7067590\",\"definition\":\"Being under the influence of a depressant (IE Alcohol) and needing to quickly pick yourself via a stimulant (IE Cocaine) up for a particular reason.\",\"example\":\"John: I'm still fucked up from last night and have a job interview in 30 minutes, man.\\r\\nMatt: Don't worry, dude, I have cocaine, the banana boat is coming.\",\"thumbs_up\":31,\"thumbs_down\":12,\"current_vote\":\"\"},{\"defid\":5930920,\"word\":\"Banana Boat\",\"author\":\"Jet Ski instructor 5\",\"permalink\":\"http://banana-boat.urbanup.com/5930920\",\"definition\":\"One of many other terms used to disguise the word \\\"weed\\\"\",\"example\":\"E.g\\n\\nUnknown man: Hello Jet Ski instructor, could I purchase some banana boat [INSERT WINK]\\n\\nJet Ski: Okay I'll sell you some of this banana boat [DOUBLE WINK]\\n\\nUnknown man 2: Sweet, lets get home to ride this banana boat\",\"thumbs_up\":51,\"thumbs_down\":50,\"current_vote\":\"\"},{\"defid\":2923717,\"word\":\"Bananaboat\",\"author\":\"Max Glenn-Davi\",\"permalink\":\"http://bananaboat.urbanup.com/2923717\",\"definition\":\"A banana carved into a boat with wings.\",\"example\":\"Dude i made a bananaboat last night\\r\\nNice, is it yellow?\",\"thumbs_up\":3,\"thumbs_down\":11,\"current_vote\":\"\"},{\"defid\":5085360,\"word\":\"Banana Boat\",\"author\":\"carcassxcutter\",\"permalink\":\"http://banana-boat.urbanup.com/5085360\",\"definition\":\"To flip your nutsack over your penis and stuff it in your asshole\",\"example\":\"When i am single i banana boat instead of jacking off, makes me feel satisfied.\",\"thumbs_up\":29,\"thumbs_down\":53,\"current_vote\":\"\"},{\"defid\":5852748,\"word\":\"Banana Boat\",\"author\":\"VajayjaySlammer\",\"permalink\":\"http://banana-boat.urbanup.com/5852748\",\"definition\":\"The act of filling a vagina with shit, blowing a load in it, then eating it out. Also, a dessert consisting of a banana, chocolate and marshmallows, being cooked on a bbq.\",\"example\":\"Devin Simpson ate the shit out of that banana boat!\",\"thumbs_up\":21,\"thumbs_down\":50,\"current_vote\":\"\"},{\"defid\":4494207,\"word\":\"banana boat\",\"author\":\"pinky the shit guy1\",\"permalink\":\"http://banana-boat.urbanup.com/4494207\",\"definition\":\"when having intercouse in the tub the man shits and it floats to the surface\",\"example\":\"omg did you just see my banana boat\",\"thumbs_up\":20,\"thumbs_down\":51,\"current_vote\":\"\"},{\"defid\":4959974,\"word\":\"Banana Boat\",\"author\":\"Bentiss525\",\"permalink\":\"http://banana-boat.urbanup.com/4959974\",\"definition\":\"The sexual act of two, usually [gay], naked men standing face to face with raging [boners]! The two [naked] [men] then inch closer and closer together until one gently slaps his [erection] on top of the other man's erection thus creating the [illusion] of a [bonered] [penis] chillin' in a [gondola] ([banana] shaped [boner] [boat]) in a [Venetian] back alley.\",\"example\":\"Come the fuck over here and slap your silly [wiener] on top of my damn [dick], you [fag]! Let's fuckin' [banana boat]!\",\"thumbs_up\":12,\"thumbs_down\":48,\"current_vote\":\"\"},{\"defid\":1024167,\"word\":\"Banana Boat\",\"author\":\"MViper\",\"permalink\":\"http://banana-boat.urbanup.com/1024167\",\"definition\":\"N. Refers to new immigrants from the West Indies to the United States of African decent. Derogatory in nature.\",\"example\":\"Carl: I just tried talking to that new guy from Jamaica today, I couldn't understand a word he was saying.\\r\\nJim: Don't waste your time, I think he just got off the Banana Boat.\",\"thumbs_up\":156,\"thumbs_down\":301,\"current_vote\":\"\"}],\"sounds\":[]}"
+    }
+  }
+]

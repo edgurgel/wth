@@ -1,6 +1,10 @@
-[ "hackney": {:git, "git://github.com/benoitc/hackney.git", "7f2a0b5996313d930277786e7ff5d538e9346547", [{:tag, "0.10.1"}]},
-  "hackney_lib": {:git, "https://github.com/benoitc/hackney_lib.git", "eecdb481f1d38bfb194896bffdf9bdcdd967ae96", [{:tag, "0.2.2"}]},
+[ "exactor": {:git, "git://github.com/sasa1977/exactor.git", "f7f6bae7fead5e0e5525581d44311f803169fa4e", []},
+  "exprintf": {:git, "git://github.com/parroty/exprintf.git", "153697ed99bc2050abbb3b17a1efc413025113f2", []},
+  "exvcr": {:git, "git://github.com/parroty/exvcr.git", "5a35c70ff049536016ab15742f1ff48c94fa3a96", []},
+  "hackney": {:git, "git://github.com/benoitc/hackney.git", "7f2a0b5996313d930277786e7ff5d538e9346547", [tag: "0.10.1"]},
+  "hackney_lib": {:git, "https://github.com/benoitc/hackney_lib.git", "eecdb481f1d38bfb194896bffdf9bdcdd967ae96", [tag: "0.2.2"]},
   "httpoison": {:git, "git://github.com/edgurgel/httpoison.git", "8372f9e5442bd58c3817c51ea5203711171afc50", []},
-  "jsex": {:git, "git://github.com/talentdeficit/jsex.git", "c9df36f07b2089a73ab6b32074c01728f1e5a2e1", [{:ref, "c9df36f07b2089a73ab6b32074c01728f1e5a2e1"}]},
-  "jsx": {:git, "git://github.com/talentdeficit/jsx.git", "e50af6e109cb03bd26acf715cbc77de746507d1d", [{:tag, "v1.4.3"}]},
-  "mimetypes": {:git, "git://github.com/spawngrid/mimetypes.git", "47d37a977a7d633199822bf6b08353007483d00f", [{:ref, "master"}]} ]
+  "jsex": {:git, "git://github.com/talentdeficit/jsex.git", "c9df36f07b2089a73ab6b32074c01728f1e5a2e1", [ref: "c9df36f07b2089a73ab6b32074c01728f1e5a2e1"]},
+  "jsx": {:git, "git://github.com/talentdeficit/jsx.git", "e50af6e109cb03bd26acf715cbc77de746507d1d", [tag: "v1.4.3"]},
+  "meck": {:git, "git://github.com/eproxus/meck.git", "8a9007c2ec664278f714c0805e4f128af54c3af8", []},
+  "mimetypes": {:git, "git://github.com/spawngrid/mimetypes.git", "47d37a977a7d633199822bf6b08353007483d00f", [ref: "master"]} ]
