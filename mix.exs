@@ -3,7 +3,7 @@ defmodule WTH.Mixfile do
 
   def project do
     [ app: :wth,
-      version: "0.0.1",
+      version: "0.0.2",
       name: "WTH",
       elixir: "~> 0.12.3",
       escript_main_module: WTH,
