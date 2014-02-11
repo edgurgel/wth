@@ -1,4 +1,4 @@
-# WTH
+# WTH [![Build Status](https://travis-ci.org/edgurgel/wth.png?branch=master)](https://travis-ci.org/edgurgel/wth)
 
 WTH is a command line tool much like old WTF that searchs on Urban Dictionary for a term definition.
 
