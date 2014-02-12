@@ -16,8 +16,8 @@ defmodule WTH.Mixfile do
   end
 
   defp deps(:prod) do
-    [ {:httpoison, github: "edgurgel/httpoison" },
-      {:jsex, github: "talentdeficit/jsex", ref: "c9df36f07b2089a73ab6b32074c01728f1e5a2e1", override: true } ]
+    [ { :httpoison, github: "edgurgel/httpoison", tag: "0.0.2" },
+      { :jsex, github: "talentdeficit/jsex" } ]
   end
   defp deps(:test) do
     deps(:prod) ++ [ {:exvcr, github: "parroty/exvcr"} ]
