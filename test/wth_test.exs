@@ -1,16 +1,25 @@
 defmodule WTH.WTHTest do
   use ExUnit.Case
   use ExVCR.Mock, adapter: ExVCR.Adapter.Hackney
+  import ExUnit.CaptureIO
 
-  test "one word term definition" do
+  test "call WTH with an empty argument" do
+    assert capture_io(fn -> WTH.main([""]) end) =~ %r/Usage:/
+  end
+
+  test "call WTH without an argument" do
+    assert capture_io(fn -> WTH.main([]) end) =~ %r/Usage:/
+  end
+
+  test "call WTH with one word argument" do
     use_cassette "urbandict_1_term" do
-      assert WTH.define("wth") =~ %r/What the Hell/
+      assert capture_io(fn -> WTH.main(["wth"]) end) =~ %r/What the Hell/
     end
   end
 
-  test "more than 1 word term" do
+  test "call WTH with two words argument" do
     use_cassette "urbandict_2_terms" do
-      assert WTH.define("banana boat") =~ %r/an all male gay cruise/
+      assert capture_io(fn -> WTH.main(["banana", "boat"]) end) =~ %r/an all male gay cruise/
     end
   end
 end

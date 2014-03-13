@@ -9,7 +9,9 @@ defmodule WTH do
     options = OptionParser.parse(args, switches: [help: :boolean], aliases: [h: :help])
     case options do
       { [help: true], _, _ } -> :help
-      { _,  terms , _ } -> Enum.join(terms, " ")
+      { _, [], _ } -> :help
+      { _,  terms , _ } ->
+        Enum.join(terms, " ") |> String.strip
     end
   end
 
@@ -24,6 +26,7 @@ defmodule WTH do
       Search for a definition on Urban Dictionary.
     """
   end
+  defp process(""), do: process(:help)
   defp process(term), do: define(term)
 
   def process_url(url) do
@@ -33,7 +36,7 @@ defmodule WTH do
   def process_response_body(body), do: JSEX.decode! body
   def process_request_headers(headers), do: headers ++ [{"User-agent", "WTH"}]
 
-  def define(term) do
+  defp define(term) do
     response = get("define?" <> URI.encode_query([term: term])).body
     if response["result_type"] == "no_results" do
       "Not found"
