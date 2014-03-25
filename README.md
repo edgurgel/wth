@@ -11,7 +11,14 @@ $ wth wth
 2) Shortened alternative to "With"
 ```
 
-## Building
+## Building/Installing
+
+Requirements:
+
+* Erlang (to run)
+* Elixir (to compile)
+
+Download the last release at https://github.com/edgurgel/wth/releases or build it:
 
 ```console
 mix deps.get
