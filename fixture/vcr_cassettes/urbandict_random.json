@@ -1,0 +1,74 @@
+[
+  {
+    "request": {
+      "url": "http://www.urbandictionary.com/random.php",
+      "headers": {
+        "User-agent": "WTH"
+      },
+      "method": "head",
+      "body": "",
+      "options": {
+        "connect_timeout": 5000
+      }
+    },
+    "response": {
+      "type": "ok",
+      "status_code": 302,
+      "headers": {
+        "Cache-Control": "no-cache, no-store, private, must-revalidate, max-age=0, max-stale=0, post-check=0, pre-check=0",
+        "Content-Type": "text/html; charset=utf-8",
+        "Expires": "0",
+        "Location": "http://www.urbandictionary.com/define.php?term=Blighty",
+        "Pragma": "no-cache",
+        "Set-Cookie": "request_method=GET; path=/",
+        "Status": "302 Found",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Request-Id": "7f8de07d-d88a-495d-9a1a-0b0fad798caf",
+        "X-Runtime": "0.399357",
+        "X-Ua-Compatible": "chrome=1",
+        "X-Xss-Protection": "1; mode=block",
+        "Via": "1.1 varnish",
+        "Transfer-Encoding": "chunked",
+        "Accept-Ranges": "bytes",
+        "Date": "Sat, 12 Apr 2014 20:43:18 GMT",
+        "Via": "1.1 varnish",
+        "Age": "0",
+        "Connection": "keep-alive",
+        "X-Served-By": "cache-v42-ASH, cache-ak102-NZ",
+        "X-Cache": "MISS, MISS",
+        "X-Cache-Hits": "0, 0",
+        "Vary": "Accept-Encoding"
+      },
+      "body": ""
+    }
+  },
+  {
+    "request": {
+      "url": "http://api.urbandictionary.com/v0/define?term=Blighty",
+      "headers": {
+        "User-agent": "WTH"
+      },
+      "method": "get",
+      "body": "",
+      "options": {
+        "connect_timeout": 5000
+      }
+    },
+    "response": {
+      "type": "ok",
+      "status_code": 200,
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "private",
+        "Content-Type": "application/json;charset=utf-8",
+        "Date": "Sat, 12 Apr 2014 20:43:19 GMT",
+        "Status": "200 OK",
+        "X-License": "http://api.urbandictionary.com/",
+        "Content-Length": "1449",
+        "Connection": "keep-alive"
+      },
+      "body": "{\"tags\":[\"england\",\"britain\",\"carry on\",\"hatstand\",\"hindu\",\"london\",\"ol' blighty\",\"old\",\"pantomime\",\"rain\"],\"result_type\":\"exact\",\"list\":[{\"defid\":1386551,\"word\":\"Blighty\",\"author\":\"charr\",\"permalink\":\"http://blighty.urbanup.com/1386551\",\"definition\":\"Slang term for Great Britain\",\"example\":\"Here in good old Blighty however, the weather's not so good.\",\"thumbs_up\":170,\"thumbs_down\":33,\"current_vote\":\"\"},{\"defid\":392463,\"word\":\"Blighty\",\"author\":\"William Nanemahoo\",\"permalink\":\"http://blighty.urbanup.com/392463\",\"definition\":\"A slang term for england used by english troops serving abroad\",\"example\":\"There are blighty troops abroad\",\"thumbs_up\":66,\"thumbs_down\":49,\"current_vote\":\"\"},{\"defid\":2005591,\"word\":\"Blighty\",\"author\":\"Enterprise\",\"permalink\":\"http://blighty.urbanup.com/2005591\",\"definition\":\"Some stuffy old English word that toffs use. Comes from around the time of the Boer War and WWI.\",\"example\":\"1) Oooh I do love good ol Blighty.\\r\\n2) The weather over here in Blighty is awful!\",\"thumbs_up\":18,\"thumbs_down\":86,\"current_vote\":\"\"},{\"defid\":2919556,\"word\":\"Blighty\",\"author\":\"daikenn\",\"permalink\":\"http://blighty.urbanup.com/2919556\",\"definition\":\"A nickname for London. According to my friend, a life-long resident and of Hindu origins, it is from the Hindi for 'overseas' - 'vilaiyat'.\",\"example\":\"Gotta nip back to Ol' Blighty to see me Mum for her birthday.\",\"thumbs_up\":16,\"thumbs_down\":94,\"current_vote\":\"\"}],\"sounds\":[]}"
+    }
+  }
+]

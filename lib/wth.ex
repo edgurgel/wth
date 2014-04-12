@@ -6,8 +6,10 @@ defmodule WTH do
   end
 
   defp parse_args(args) do
-    options = OptionParser.parse(args, switches: [help: :boolean], aliases: [h: :help])
+    options = OptionParser.parse(args, switches: [help: :boolean, random: :boolean],
+                                       aliases: [h: :help, r: :random])
     case options do
+      { [random: true], _, _ } -> :random
       { [help: true], _, _ } -> :help
       { _, [], _ } -> :help
       { _,  terms , _ } ->
@@ -15,12 +17,14 @@ defmodule WTH do
     end
   end
 
+  defp process(:random), do: random
   defp process(:help) do
     """
     Usage:
       wth term
     Options:
-      -h, [--help]  # Show this help message and quit.
+      -h, [--help]    # Show this help message and quit.
+      -r, [--random]  # Get a random term and define it
 
     Description:
       Search for a definition on Urban Dictionary.
@@ -29,15 +33,27 @@ defmodule WTH do
   defp process(""), do: process(:help)
   defp process(term), do: define(term)
 
-  def process_url(url) do
-    "http://api.urbandictionary.com/v0/" <> url
+  def process_response_body(body)  do
+    if JSEX.is_json? body do
+      JSEX.decode! body
+    else
+      body
+    end
   end
 
-  def process_response_body(body), do: JSEX.decode! body
   def process_request_headers(headers), do: headers ++ [{"User-agent", "WTH"}]
 
+  defp random do
+    response = head("http://www.urbandictionary.com/random.php")
+    uri = response.headers["Location"] |> URI.parse
+    query = uri.query |> URI.decode_query([])
+    term = query["term"]
+    IO.puts "Random word: #{term}"
+    define(term)
+  end
+
   defp define(term) do
-    response = get("define?" <> URI.encode_query([term: term])).body
+    response = get("http://api.urbandictionary.com/v0/define?" <> URI.encode_query([term: term])).body
     if response["result_type"] == "no_results" do
       "Not found"
     else

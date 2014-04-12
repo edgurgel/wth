@@ -11,6 +11,12 @@ defmodule WTH.WTHTest do
     assert capture_io(fn -> WTH.main([]) end) =~ ~r/Usage:/
   end
 
+  test "call WTH with random word" do
+    use_cassette "urbandict_random" do
+      assert capture_io(fn -> WTH.main(["--random"]) end) =~ ~r/Random word: Blighty\nSlang term for Great Britain\n/
+    end
+  end
+
   test "call WTH with one word argument" do
     use_cassette "urbandict_1_term" do
       assert capture_io(fn -> WTH.main(["wth"]) end) =~ ~r/What the Hell/
