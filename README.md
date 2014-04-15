@@ -4,11 +4,21 @@ WTH is a command line tool much like old WTF that searchs on Urban Dictionary fo
 
 ## Usage
 
-```
+### Get a term description
+
+```console
 $ wth wth
 1) Abbreviation for "What the Hell"
 
 2) Shortened alternative to "With"
+```
+
+### Get a random term description
+
+```console
+$ wth --random
+Random word: Goner
+Video Game Boner. Made popular by YouTube show "20 Minutes or Less" co-host, Joe Bereta on the on the SourceFed channel.
 ```
 
 ## Building/Installing
