@@ -1,6 +1,6 @@
 [ "exactor": {:git, "git://github.com/sasa1977/exactor.git", "f7f6bae7fead5e0e5525581d44311f803169fa4e", []},
   "exprintf": {:git, "git://github.com/parroty/exprintf.git", "153697ed99bc2050abbb3b17a1efc413025113f2", []},
-  "exvcr": {:git, "git://github.com/parroty/exvcr.git", "8f8918702f61e4a4623f62b2d20d0b7836ee3de4", []},
+  "exvcr": {:git, "git://github.com/parroty/exvcr.git", "fc2f626f00984abdb033c77470ba3257e4695b95", []},
   "hackney": {:git, "git://github.com/benoitc/hackney.git", "7f2a0b5996313d930277786e7ff5d538e9346547", [tag: "0.10.1"]},
   "hackney_lib": {:git, "https://github.com/benoitc/hackney_lib.git", "eecdb481f1d38bfb194896bffdf9bdcdd967ae96", [tag: "0.2.2"]},
   "httpoison": {:git, "git://github.com/edgurgel/httpoison.git", "d2bde2efdf122cd4d33fa748c599c45425f7b1a2", [tag: "0.0.2"]},
