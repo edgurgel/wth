@@ -5,8 +5,8 @@ defmodule WTH.Mixfile do
     [ app: :wth,
       version: "0.0.5",
       name: "WTH",
-      elixir: "~> 0.14.0",
-      escript_main_module: WTH,
+      elixir: "~> 0.14.2",
+      escript: [ main_module: WTH ],
       deps: deps ]
   end
 
@@ -16,8 +16,8 @@ defmodule WTH.Mixfile do
   end
 
   defp deps do
-    [ { :httpoison, github: "edgurgel/httpoison", tag: "0.2.0" },
+    [ { :httpoison, github: "edgurgel/httpoison", tag: "0.3.0" },
       { :jsex, "~> 2.0" },
-      { :exvcr, github: "parroty/exvcr", tag: "v0.1.6", only: :test } ]
+      { :exvcr, github: "parroty/exvcr", only: :test } ]
   end
 end
