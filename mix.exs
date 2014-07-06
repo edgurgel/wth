@@ -18,6 +18,6 @@ defmodule WTH.Mixfile do
   defp deps do
     [ { :httpoison, github: "edgurgel/httpoison", tag: "0.3.0" },
       { :jsex, "~> 2.0" },
-      { :exvcr, github: "parroty/exvcr", only: :test } ]
+      { :exvcr, github: "parroty/exvcr", tag: "v0.1.7", only: :test } ]
   end
 end
