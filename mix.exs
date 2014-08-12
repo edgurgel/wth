@@ -5,7 +5,7 @@ defmodule WTH.Mixfile do
     [ app: :wth,
       version: "0.0.5",
       name: "WTH",
-      elixir: "~> 0.14.2",
+      elixir: "~> 0.14.2 or ~> 0.15.0",
       escript: [ main_module: WTH ],
       deps: deps ]
   end
@@ -16,9 +16,10 @@ defmodule WTH.Mixfile do
   end
 
   defp deps do
-    [ { :httpoison, github: "edgurgel/httpoison", tag: "0.3.0" },
+    [ { :httpoison, "~> 0.3.0" },
+      { :hackney,   github: "benoitc/hackney", tag: "0.13.0" },
       { :jsex, "~> 2.0" },
       { :meck, "0.8.2", github: "eproxus/meck", override: true, only: :test },
-      { :exvcr, "~> 0.2.0", only: :test } ]
+      { :exvcr, "~> 0.3.0", only: :test } ]
   end
 end
