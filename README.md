@@ -32,7 +32,7 @@ Download the last release at https://github.com/edgurgel/wth/releases or build i
 
 ```console
 mix deps.get
-mix escriptize
+mix escript.build
 ```
 
 `wth` binary will be avaiable.
