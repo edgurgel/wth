@@ -7,4 +7,4 @@
   "idna": {:package, "1.0.1"},
   "jsex": {:package, "2.0.0"},
   "jsx": {:package, "2.1.1"},
-  "meck": {:git, "git://github.com/eproxus/meck.git", "3fa3e9bbebc3e65f6ceffe4800d56335e9e3ebac", []}}
+  "meck": {:package, "0.8.2"}}
