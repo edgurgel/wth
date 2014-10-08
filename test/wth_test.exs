@@ -26,6 +26,7 @@ defmodule WTH.WTHTest do
   test "call WTH with two words argument" do
     use_cassette "urbandict_2_terms" do
       assert capture_io(fn -> WTH.main(["banana", "boat"]) end) =~ ~r/an all male gay cruise/
+      assert capture_io(fn -> WTH.main(["banana", "boat"]) end) =~ ~r/I almost signed up for that cruise until I found out it was a banana boat./
     end
   end
 end

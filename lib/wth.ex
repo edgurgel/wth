@@ -58,7 +58,12 @@ defmodule WTH do
       "Not found"
     else
       first_def = response["list"] |> List.first
-      first_def["definition"]
+      output(first_def)|> IO.ANSI.format(true)
     end
   end
+
+  defp output(%{"definition" => definition, "example" => example}) do
+    [definition, "\n\n", :bright, "Example(s):\n\n", :reset, example]
+  end
+  defp output(%{"definition" => definition}), do: definition
 end
