@@ -44,7 +44,7 @@ defmodule WTH do
   def process_request_headers(headers), do: headers ++ [{"User-agent", "WTH"}]
 
   defp random do
-    response = head("http://www.urbandictionary.com/random.php")
+    response = head!("http://www.urbandictionary.com/random.php")
     uri = response.headers["Location"] |> URI.parse
     query = uri.query |> URI.decode_query(%{})
     term = query["term"]
@@ -53,7 +53,7 @@ defmodule WTH do
   end
 
   defp define(term) do
-    response = get("http://api.urbandictionary.com/v0/define?" <> URI.encode_query(%{term: term})).body
+    response = get!("http://api.urbandictionary.com/v0/define?" <> URI.encode_query(%{term: term})).body
     if response["result_type"] == "no_results" do
       "Not found"
     else
