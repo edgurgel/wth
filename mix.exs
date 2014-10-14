@@ -5,7 +5,7 @@ defmodule WTH.Mixfile do
     [ app: :wth,
       version: "0.0.5",
       name: "WTH",
-      elixir: "~> 0.15.0 or ~> 1.0",
+      elixir: "~> 1.0",
       escript: [ main_module: WTH ],
       deps: deps ]
   end
