@@ -1,10 +1,8 @@
-%{"exactor": {:package, "0.7.0"},
-  "exprintf": {:package, "0.1.2"},
-  "exvcr": {:package, "0.3.3"},
-  "hackney": {:package, "0.14.1"},
-  "hackney_lib": {:git, "https://github.com/benoitc/hackney_lib.git", "48a5a3fc64892c95e4e3efdd464f26ca5683d2f9", [tag: "0.3.0"]},
-  "httpoison": {:package, "0.5.0"},
-  "idna": {:package, "1.0.1"},
-  "jsex": {:package, "2.0.0"},
-  "jsx": {:package, "2.1.1"},
-  "meck": {:package, "0.8.2"}}
+%{"exactor": {:hex, :exactor, "2.1.2"},
+  "exjsx": {:hex, :exjsx, "3.1.0"},
+  "exvcr": {:hex, :exvcr, "0.3.9"},
+  "hackney": {:hex, :hackney, "0.14.3"},
+  "httpoison": {:hex, :httpoison, "0.5.0"},
+  "idna": {:hex, :idna, "1.0.1"},
+  "jsx": {:hex, :jsx, "2.4.0"},
+  "meck": {:hex, :meck, "0.8.3"}}

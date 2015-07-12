@@ -34,8 +34,8 @@ defmodule WTH do
   defp process(term), do: define(term)
 
   def process_response_body(body)  do
-    if JSEX.is_json? body do
-      JSEX.decode! body
+    if JSX.is_json?(body) do
+      JSX.decode! body
     else
       body
     end
